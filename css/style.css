@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+   
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    text-align: center;
+    margin: 30px 10px;
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    display: inline;
+    color:#6ed563;
+
+}
+input{
+    border-radius: 3%;
+    padding: 3px;
+}
+button{
+    margin-left: 10px;
+    padding: 3px;
+}
+.task-menu{
+    background-color: cadetblue;
+    margin: 20px auto; 
+    border-radius: 3%;
+    width: 400px;
+    min-height: 200px;
+    padding: 10px;
+
+    
+}
+ul{
+    list-style: none;
+    padding: 20px;
+}
+
+li{
+    margin: 10px 0;
+}
+.through{
+    text-decoration: line-through;
+}
+.fa-xmark{
+    margin:0 10px;
+    color: red;
+}
